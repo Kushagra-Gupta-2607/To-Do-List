@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
   }
+
+  body{
+    background-image: url("https://images.unsplash.com/photo-1514782831304-632d84503f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   ul {
     margin: 0;
@@ -61,7 +67,6 @@
   }
   
   .header {
-    background-color: #f44336;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -98,4 +103,10 @@
   
   .addBtn:hover {
     background-color: #bbb;
+  }
+
+  #myHeader{
+    color: black;
+    background-color: lightcoral;
+    font-size: 70px;
   }
